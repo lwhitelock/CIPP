@@ -1613,6 +1613,7 @@ const MappingsTab = () => {
   const onNinjaFieldsSubmit = (values) => {
     setNinjaFieldsExtensionconfig({
       path: 'api/ExecExtensionMapping?AddMapping=NinjaFields',
+
       values: { mappings: values },
     })
   }
