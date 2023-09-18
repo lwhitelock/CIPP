@@ -130,13 +130,8 @@
       },
       {
         "type": "checkbox",
-        "name": "NinjaOne.TenantCustomFields",
-        "label": "Generate Tenant Information into Global Custom Fields"
-      },
-      {
-        "type": "checkbox",
-        "name": "NinjaOne.DeviceCompliance",
-        "label": "Populate a Device Custom Field with compliance status"
+        "name": "NinjaOne.LicensedOnly",
+        "label": "Only Synchronize Licensed Users"
       },
       {
         "type": "checkbox",
