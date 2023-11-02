@@ -106,5 +106,50 @@
         "label": "Enable Integration"
       }
     ]
+  },
+  {
+    "name": "NinjaOne Integration",
+    "type": "NinjaOne",
+    "cat": "Documentation & Monitoring",
+    "forceSyncButton": true,
+    "helpText": "This integration allows you to populate custom fields with Tenant information, monitor device compliance state, document other items and generate relationships inside NinjaOne. This intgration requires a machine to machine (client_credentials) API application with the monitoring and management grants.",
+    "SettingOptions": [
+      {
+        "type": "input",
+        "fieldtype": "input",
+        "name": "NinjaOne.Instance",
+        "label": "Please enter your NinjaOne Instance",
+        "placeholder": "app.ninjarmm.com, eu.ninjarmm.com, oc.ninjarmm.com, ca.ninjarmm.com"
+      },
+      {
+        "type": "input",
+        "fieldtype": "password",
+        "name": "NinjaOne.ClientID",
+        "label": "NinjaOne API Client ID",
+        "placeholder": "Enter your NinjaOne API Client ID"
+      },
+      {
+        "type": "input",
+        "fieldtype": "password",
+        "name": "NinjaOne.TEMPSECRETCHANGEME",
+        "label": "NinjaOne API Client Secret",
+        "placeholder": "Enter your NinjaOne API Client Secret"
+      },
+      {
+        "type": "checkbox",
+        "name": "NinjaOne.TenantCustomFields",
+        "label": "Generate Tenant Information into Global Custom Fields"
+      },
+      {
+        "type": "checkbox",
+        "name": "NinjaOne.DeviceCompliance",
+        "label": "Populate a Device Custom Field with compliance status"
+      },
+      {
+        "type": "checkbox",
+        "name": "NinjaOne.Enabled",
+        "label": "Enable Integration"
+      }
+    ]
   }
 ]
