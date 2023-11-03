@@ -1638,7 +1638,6 @@ const ExtensionsTab = () => {
 }
 
 const MappingsTab = () => {
-
   const [listHaloBackend, listBackendHaloResult = []] = useLazyGenericGetRequestQuery()
   const [listNinjaOrgsBackend, listBackendNinjaOrgsResult] = useLazyGenericGetRequestQuery()
   const [listNinjaFieldsBackend, listBackendNinjaFieldsResult] = useLazyGenericGetRequestQuery()
@@ -1649,7 +1648,6 @@ const MappingsTab = () => {
     useLazyGenericPostRequestQuery()
   const [setNinjaFieldsExtensionconfig, extensionNinjaFieldsConfigResult] =
     useLazyGenericPostRequestQuery()
-
 
   const onHaloSubmit = (values) => {
     setHaloExtensionconfig({
