@@ -137,6 +137,16 @@
       },
       {
         "type": "checkbox",
+        "name": "NinjaOne.UserDocumentsEnabled",
+        "label": "Synchronize Detailed User Information (Requires NinjaOne Documentation)"
+      },
+      {
+        "type": "checkbox",
+        "name": "NinjaOne.LicenseDocumentsEnabled",
+        "label": "Synchronize Detailed License Information (Requires NinjaOne Documentation)"
+      },
+      {
+        "type": "checkbox",
         "name": "NinjaOne.LicensedOnly",
         "label": "Only Synchronize Licensed Users"
       },
