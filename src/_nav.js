@@ -137,6 +137,11 @@ const _nav = [
         name: 'Enterprise Applications',
         to: '/tenant/administration/enterprise-apps',
       },
+      {
+        component: CNavItem,
+        name: 'Tenant Offboarding',
+        to: '/tenant/administration/tenant-offboarding-wizard',
+      },
     ],
   },
   {
@@ -674,6 +679,25 @@ const _nav = [
         component: CNavItem,
         name: 'Shared Mailbox with Enabled Account',
         to: '/email/reports/SharedMailboxEnabledAccount',
+      },
+    ],
+  },
+  {
+    component: CNavGroup,
+    name: 'Tools',
+    section: 'Tools',
+    to: '/email/tools',
+    icon: <FontAwesomeIcon icon={faToolbox} className="nav-icon" />,
+    items: [
+      {
+        component: CNavItem,
+        name: 'Mailbox Restore Wizard',
+        to: '/email/tools/mailbox-restore-wizard',
+      },
+      {
+        component: CNavItem,
+        name: 'Mailbox Restores',
+        to: '/email/tools/mailbox-restores',
       },
     ],
   },
